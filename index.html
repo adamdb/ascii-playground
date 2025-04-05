@@ -1,0 +1,35 @@
+<!-- Example -->
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="module">
+      import { run } from "./src/run.js";
+      import * as program from "./src/programs/basics/time_frames.js";
+
+      const settings = {
+        element: document.querySelector("pre"),
+        allowSelect: false,
+        cols: 200,
+        fps: 30,
+        once: false,
+        renderer: "text",
+        restoreState: false,
+        rows: 25,
+      };
+
+      run(program, settings).catch(function (e) {
+        console.warn(e.message);
+        console.log(e.error);
+      });
+    </script>
+
+    <pre></pre>
+  </body>
+</html>

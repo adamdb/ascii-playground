@@ -1,0 +1,23 @@
+{
+  "name": "ascii-play",
+  "version": "0.0.1",
+  "description": "A port of the ASCII playground API for text-based art and animation in the browser.",
+  "scripts": {
+    "test": "mocha",
+    "dev": "npx vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamdb/ascii-play.git"
+  },
+  "author": "Adam Balchunas, Andreas Gysin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamdb/ascii-play/issues"
+  },
+  "homepage": "https://github.com/adamdb/ascii-play#readme",
+  "devDependencies": {
+    "mocha": "^11.1.0",
+    "vite": "^6.2.5"
+  }
+}
