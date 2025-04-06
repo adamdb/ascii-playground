@@ -1,6 +1,7 @@
 {
   "name": "ascii-play",
   "version": "0.0.1",
+  "main": "run.js",
   "description": "A port of the ASCII playground API for text-based art and animation in the browser.",
   "scripts": {
     "test": "mocha",

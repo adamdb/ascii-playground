@@ -1,9 +1,6 @@
-/**
-[header]
-@author ertdfgcvb
-@title  Time: frames
-@desc   Use of context.frame (ASCII horizon)
-*/
+// @author ertdfgcvb
+// @title  Time: frames
+// @desc   Use of context.frame (ASCII horizon)
 
 // The default framerate can be altered
 // by exporting a 'settings' object (see the manual for details).
@@ -23,11 +20,3 @@ export function main(coord, context, cursor, buffer) {
 	const code = Math.floor(val + context.cols/2 + context.frame * 0.3) % 94 + 32
 	return String.fromCharCode(code)
 }
-
-// Display some info
-// import { drawInfo } from '/src/modules/drawbox.js'
-// export function post(context, cursor, buffer) {
-// 	drawInfo(context, cursor, buffer, {
-// 		color : 'white', backgroundColor : 'royalblue', shadowStyle : 'gray'
-// 	})
-// }
